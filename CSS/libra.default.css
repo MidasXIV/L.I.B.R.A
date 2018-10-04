@@ -1,0 +1,486 @@
+/*! * Start Bootstrap - Full (https://startbootstrap.com/template-overviews/full) * Copyright 2013-2017 Start Bootstrap * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full/blob/master/LICENSE) */
+ @import url('https://fonts.googleapis.com/css?family=PT+Sans');
+ @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+ @import url('https://fonts.googleapis.com/css?family=Raleway');
+ @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+ @font-face {
+     font-family: 'hermit';
+     src: url('../font/Hermit-medium.otf');
+}
+
+html, body
+{
+    height: 100%;
+}
+body {
+     background: #2e3339;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     background-size: cover;
+     -o-background-size: cover;
+}
+
+LIBRA-dark {
+     color: #14181b;
+}
+
+LIBRA-mid-dark {
+     color: #23262b;
+}
+
+LIBRA-ligth {
+     color: #2e3339;
+}
+
+.container {
+     height : 100%;
+     width : 100%;
+     overflow : hidden;
+     background-image : url('../LIBRA_INSP//ZOK4.jpg');
+    /*background: #2e3339;
+    */
+     background-repeat : no-repeat;
+     background-attachment : fixed;
+    /* Center and scale the image nicely */
+     background-position: center;
+     background-size: cover;
+}
+
+.Console-head , .UserInfo-head 
+{
+     font-family: 'Raleway', sans-serif;
+     font-size : 20px;
+     background-color: #000000;
+     color: #F5F5F5;
+     width:31%;
+}
+
+.Console-body {
+     color: #000000;
+     height: 124px;
+     direction: rtl;
+}
+
+.Console-body h1 {
+     direction: ltr;
+     font-weight: 100;
+     font-family: 'Source Code Pro', monospace;
+     font-size : 12px;
+     line-height : 20px;
+     text-decoration: none;
+     color: #000000;
+}
+
+#Console-input {
+     direction: ltr;
+     width:100%;
+     font-weight: 100;
+     font-family: 'Source Code Pro', monospace;
+     font-size : 12px;
+     line-height : 20px;
+     text-decoration: none;
+     color: #000000;
+     background-color: transparent;
+}
+
+.collapsible {
+     font-family: 'Raleway', sans-serif;
+     font-size : 16px;
+     background-color: transparent;
+     color:#F5F5F5;
+     cursor: pointer;
+     padding: 10px;
+     width: 85%;
+     border: none;
+     text-align: left;
+     outline: none;
+}
+
+.collapse-active, .collapsible:hover {
+     background-color: #000000;
+}
+
+.content {
+     padding: 10px;
+     display: block;
+     overflow: hidden;
+     background-color: #f1f1f1;
+     background-color: transparent;
+}
+
+.btn {
+     background-color: #000000;
+     border: none;
+     color: #f1f1f1;
+     width:15%;
+     padding-top: 8px;
+     align-content: center;
+     font-size: 16px;
+     cursor: pointer;
+     float: right;
+}
+/* Darker background on mouse-over */
+
+.btn:hover , .ChartButton:hover {
+     background-color: #212121;
+}
+/* Animation */
+
+.anim-typewriter {
+     animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal;
+}
+ @keyframes typewriter {
+     from{
+        width: 0;
+    }
+     to{
+        width: 24em;
+    }
+}
+ @keyframes blinkTextCursor {
+     from{
+        border-right-color: #212121;
+    }
+     to{
+        border-right-color: transparent;
+    }
+}
+ 
+.LeftBottom {
+     width: 100%;
+     position: fixed;
+     left:0px;
+     bottom:0;
+}
+
+.LeftMid {
+     position: fixed;
+     width: 100%;
+     left:0px;
+     top:26%;
+}
+
+.rotating {
+     -webkit-animation: rotation 10s infinite linear;
+     background-position: center;
+     background-size: cover;
+     height : 100%;
+     width : 100%;
+     overflow : hidden;
+}
+
+@-webkit-keyframes rotation {
+     from {
+         -webkit-transform: rotate(0deg);
+    }
+     to {
+         -webkit-transform: rotate(359deg);
+    }
+}
+
+.UserInfo-body {
+     width:31%;
+}
+
+#UserInfo-table {
+     direction: ltr;
+     width:100%;
+     line-height : 15px;
+     text-decoration: none;
+     color: #000000;
+}
+
+th, td {
+     padding: 4px;
+     border-bottom: 1px solid #ddd;
+}
+
+.TableLeft {
+     text-transform: uppercase;
+     font-weight: 200;
+     font-family: 'Source Code Pro', monospace;
+     font-size : 12px;
+}
+
+.TableRight {
+     font-weight: 100;
+     font-family: 'Source Code Pro', monospace;
+     font-size : 12px;
+     float: right;
+}
+
+.libra {
+     height : 100%;
+     width : 100%;
+     overflow : hidden;
+    /*background: #2e3339;
+    */
+     background-repeat : no-repeat;
+     background-attachment : fixed;
+    /* Center and scale the image nicely */
+     background-position: center;
+     background-size: cover;
+}
+
+.RightMid {
+     position: fixed;
+     width: 31%;
+     right:0%;
+     top:26%;
+}
+
+.ChartBar {
+     width:100%;
+     height:40px;
+     background-color: #000000;
+     background-color: transparent;
+     background: url(https://images.freecreatives.com/wp-content/uploads/2017/06/628ab854fce7f90c30e40c91fb86b22b.jpg);
+    letter-spacing: 0.5em;
+     /*background-color: transparent;*/
+}
+
+.ChartButton {
+     font-family: 'Ubuntu', sans-serif;
+     font-size : 20px;
+    font-weight: 300;
+     background-color: #000000; 
+    padding: 1em;
+    
+     color: #F5F5F5;
+     width:33%;
+    height: 100%;
+     padding: 8px;
+     align-content: center;
+     font-size: 16px;
+     cursor: pointer;
+    /*border-radius: 4px;*/
+}
+
+.chart-active
+{    color: white;
+    text-transform: uppercase;
+    mix-blend-mode: multiply;
+    background-color: #212121;
+  /*
+    border-radius:50px;
+  transition-duration:0.6s;
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  
+  background: #05abe0;
+  background: -moz-linear-gradient(45deg, #05abe0 0%, #8200f4 100%);
+  background: -webkit-linear-gradient(45deg, #05abe0 0%,#8200f4 100%);
+  background: linear-gradient(45deg, #05abe0 0%,#8200f4 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05abe0', endColorstr='#8200f4',GradientType=1 );
+*/
+}
+.SystemTable
+{
+    height : 222px;
+    width:100%;
+    border: 0px solid black;
+    background-color: #212121;
+    color : #f1f1f1;
+    align-content: center;
+}
+
+.SystemTable tr
+{   height:50%;
+    border: 0px solid black;
+}
+.SystemTable td
+{   width:33%;
+    border: 0px solid black;
+    outline: 2px solid black;
+    font-family: 'hermit', sans-serif;
+    letter-spacing: 0.5em;
+    font-weight: 100;
+    font-size : 10px;
+}
+.SystemTable td h1
+{   text-align: center;
+    font-family: 'hermit', sans-serif;
+    letter-spacing: 0.5em;
+    font-weight: 100;
+    font-size : 10px;
+    width: 100%;
+    padding: 2px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    
+}
+
+
+.RightBottom
+{
+     width: 31%;
+     position: fixed;
+     right:0px;
+     bottom:0;   
+}
+
+.Analytics-head
+{
+    font-family: 'Raleway', sans-serif;
+    font-size : 20px;
+    background-color: #000000;
+    color: #F5F5F5;
+    width:100%;
+}
+
+
+.Analytics-body {
+     color: #000000;
+     height: 124px;
+     direction: rtl;
+}
+
+.Adjacent1
+{   position:fixed;
+    background-color: #212121;
+    background-color: transparent;
+    padding: 3px;
+    height : 74px;
+    width  : 190px;
+    right  : 23%;
+    top    : 3%;
+    float: right;
+    align-content: center;
+    transform: rotate(-60deg);
+}
+
+.ADJ td h1
+{   font-family: 'hermit', sans-serif;
+    letter-spacing: 0.5em;
+    font-weight: 100;
+    font-size : 8px;
+    width: 100%;
+    padding: 2px;
+    
+}
+.ADJ td
+{   
+    border: 0px;
+    border-right: 0px solid #666;
+    padding: 2px;
+    
+}
+
+.hexagon {
+  position: relative;
+  width: 525px; 
+  height: 303.11px;
+  background-color: transparent;
+  margin: 151.55px 0;
+  box-shadow: 0 0 20px rgba(0,0,0,1);
+  border-left: solid 20px #000000;
+  border-right: solid 20px #000000;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 371.23px;
+  height: 371.23px;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background-color: inherit;
+  left: 56.8845px;
+  box-shadow: 0 0 20px rgba(0,0,0,1);
+}
+
+.hexagon:before {
+  top: -185.6155px;
+  border-top: solid 28.2843px #000000;
+  border-right: solid 28.2843px #000000;
+}
+
+.hexagon:after {
+  bottom: -185.6155px;
+  border-bottom: solid 28.2843px #000000;
+  border-left: solid 28.2843px #000000;
+}
+
+/*cover up extra shadows*/
+.hexagon span {
+  display: block;
+  position: absolute;
+  top:11.547005383792515px;
+  left: 0;
+  width:485px;
+  height:280.0149px;
+  z-index: 2;
+  background: inherit;
+    overflow: hidden;
+}
+
+.CentrePiece 
+{
+  width: 39%;
+  margin: 0 auto;
+}
+
+
+.LeftTop {
+    padding-top: 0%;
+    position: fixed;
+    height:160px;
+    width:40%;
+    /*overflow:hidden;*/
+}
+
+
+.LeftTop h1
+{
+    font-family: 'hermit';
+    font-size: 8px;
+    color: #212121;
+}
+
+.LeftTop h4
+{
+    font-family: 'hermit';
+    font-size: 12px;
+    color: #212121;
+}
+.mirror 
+{   
+	-moz-transform: scale(1, -1);
+ -webkit-transform: scale(1, -1);
+      -o-transform: scale(1, -1);
+     -ms-transform: scale(1, -1);
+         transform: scale(1, -1);
+       font-family: 'hermit';
+         font-size: 8px;
+             color: #212121;
+}
+
+.TransButtonPanel
+{   position:fixed;
+    width:30px;
+    height:160px;
+    z-index: 99;
+    padding:10px;
+}
+
+.top-arrow, .bottom-arrow
+{
+    background: #212121;
+    border-radius: 2px;
+    color: #666;
+    padding: 10px;
+}
+fas
+{
+    font-size: 10px;
+}
+
+
+.slick-carousel
+{
+    padding-left: 55px;
+    padding-top: 10px;
+}
